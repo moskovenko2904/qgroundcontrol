@@ -38,7 +38,7 @@ Item {
             if (_activeVehicle && _initialConnectComplete) {
                 leftHandedMode ? _activeVehicle.virtualTabletJoystickValue(leftStick.xAxis, leftStick.yAxis, rightStick.xAxis, rightStick.yAxis) : _activeVehicle.virtualTabletJoystickValue(rightStick.xAxis, rightStick.yAxis, leftStick.xAxis, leftStick.yAxis)
             }
-            leftYAxisValue = leftStick.yAxis // We keep Y axis value from the throttle stick for using it while there is a resize
+            leftYAxisValue = leftStick.yAxis // We keep HUI axis value from the throttle stick for using it while there is a resize
         }
     }
 
